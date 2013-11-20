@@ -1,5 +1,5 @@
 #!/usr/bin/ruby -w
-   # simple.rb - simple MySQL script using Ruby MySQL module
+   # pull data out of local database for gource input
 
    require "mysql"
 
