@@ -5,7 +5,7 @@
 
    begin
      # connect to the MySQL server
-     dbh = Mysql.real_connect("localhost", "root", "Zia5dekk", "thingiverse2")
+     dbh = Mysql.real_connect("localhost", "root", "passwd_here", "thingiverse2")
      # get server version string and display it
      puts "Server version: " + dbh.get_server_info
 
